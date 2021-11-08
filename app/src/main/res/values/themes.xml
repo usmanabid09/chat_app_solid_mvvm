@@ -1,9 +1,22 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Splash Screen theme. -->
+    <style name="Theme.Splash" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen_layer</item>
+        <item name="android:statusBarColor">@color/puerto_rico</item>
+    </style>
+
+    <!--    <style name="Theme.Splash" parent="Theme.SplashScreen">-->
+    <!--        <item name="windowSplashScreenBackground">@color/puerto_rico</item>-->
+    <!--        <item name="windowSplashScreenAnimatedIcon">@drawable/dodear_portal</item>-->
+    <!--        <item name="postSplashScreenTheme">@style/Theme.SolidApp</item>-->
+    <!--    </style>-->
+
     <!-- Base application theme. -->
     <style name="Theme.SolidApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimary">@color/puerto_rico</item>
+        <item name="colorPrimaryVariant">@color/puerto_rico</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
@@ -13,4 +26,5 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
 </resources>

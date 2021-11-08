@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/puerto_rico" />
+    <item
+        android:drawable="@drawable/dodear_portal"
+        android:gravity="center" />
+</layer-list>
