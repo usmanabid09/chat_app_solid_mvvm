@@ -3,7 +3,7 @@
     <!-- Splash Screen theme -->
     <style name="Theme.Splash" parent="Theme.MaterialComponents.NoActionBar">
         <item name="android:windowBackground">@drawable/splash_screen_layer</item>
-        <item name="android:statusBarColor">@color/puerto_rico</item>
+        <item name="android:statusBarColor">@color/abbey</item>
     </style>
 
     <!--    <style name="Theme.Splash" parent="Theme.SplashScreen">-->
@@ -15,12 +15,12 @@
     <!-- Base application theme. -->
     <style name="Theme.SolidApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/puerto_rico</item>
-        <item name="colorPrimaryVariant">@color/puerto_rico</item>
+        <item name="colorPrimary">@color/abbey</item>
+        <item name="colorPrimaryVariant">@color/abbey</item>
         <item name="colorOnPrimary">@color/black</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorSecondary">@color/abbey</item>
+        <item name="colorSecondaryVariant">@color/abbey</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
